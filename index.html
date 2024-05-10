@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Tracker</title>
+    <link rel="icon" type="image/gif" href="./images/IP.jpeg" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="top-container">
+            <h2 class="heading">IP Address Tracker</h2>
+            <div class="details">
+                <div class="one"><span class="sub-head">IP ADDRESS</span><span class="ip">8.8.8.8</span></div>
+                <div class="two"><span class="sub-head">LOCATION</span><span class="location"></span><span class="pincode"></span></div>
+                <div class="three"><span class="sub-head">TIMEZONE</span><div ><span >UTC:  </span><span class="timezone"></span></div></div>
+                <div class="four"><span class="sub-head">Continent</span><span class="continent"></span></div>
+            </div>
+        </div>
+        <div id="map"></div>
+    </main>
+</body>
+</html>
